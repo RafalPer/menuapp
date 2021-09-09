@@ -30,6 +30,9 @@ Create super user (App doesn't have a register functions) \
 ## Running a server
 ```python manage.py runserver```
 
+## Running a tests
+```manage.py test```
+
 ## Starting a Celery tasks (sending emails)
 ### Windows
 ```celery -A menuapp worker --pool=solo -l info```
